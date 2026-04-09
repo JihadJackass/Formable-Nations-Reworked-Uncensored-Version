@@ -1,0 +1,190 @@
+# Toggle for Controversial Formables - fnr_controversial_enabled
+# nazi germany, israel, rhodesia, etc
+#
+
+		# Donetsk Peoples Republic - Modern
+			FormableNationReworked_toggle_donetskpeoplesrepublic = {
+				scope = country
+				is_shown = { always = yes }
+				is_valid = { always = yes }
+				effect = {
+					if = { # Cycle: Default → Force OFF → Force ON → Default
+						limit = {
+							NOT = { has_variable = fnr_dpr_enabled }
+							NOT = { has_variable = fnr_dpr_disabled }
+						}
+						every_country = { # Currently DEFAULT → Force OFF
+							set_variable = { name = fnr_dpr_disabled value = yes }
+						}
+					}
+					else_if = { # Currently FORCE OFF → Force ON
+						limit = { has_variable = fnr_dpr_disabled }
+						every_country = { 
+							remove_variable = fnr_dpr_disabled
+							set_variable = { name = fnr_dpr_enabled value = yes }
+						}
+					}
+					else_if = { # Currently FORCE ON → Default
+						limit = { has_variable = fnr_dpr_enabled }
+						every_country = {
+							remove_variable = fnr_dpr_enabled
+						}
+					}
+				}
+			}
+
+		# Luhansk Peoples Republic - Modern
+			FormableNationReworked_toggle_luhanskpeoplesrepublic = {
+				scope = country
+				is_shown = { always = yes }
+				is_valid = { always = yes }
+				effect = {
+					if = { # Cycle: Default → Force OFF → Force ON → Default
+						limit = {
+							NOT = { has_variable = fnr_lpr_enabled }
+							NOT = { has_variable = fnr_lpr_disabled }
+						}
+						every_country = { # Currently DEFAULT → Force OFF
+							set_variable = { name = fnr_lpr_disabled value = yes }
+						}
+					}
+					else_if = { # Currently FORCE OFF → Force ON
+						limit = { has_variable = fnr_lpr_disabled }
+						every_country = { 
+							remove_variable = fnr_lpr_disabled
+							set_variable = { name = fnr_lpr_enabled value = yes }
+						}
+					}
+					else_if = { # Currently FORCE ON → Default
+						limit = { has_variable = fnr_lpr_enabled }
+						every_country = {
+							remove_variable = fnr_lpr_enabled
+						}
+					}
+				}
+			}
+
+			# Taliban - Modern
+			FormableNationReworked_toggle_taliban = {
+				scope = country
+				is_shown = { always = yes }
+				is_valid = { always = yes }
+				effect = {
+					if = { # Cycle: Default → Force OFF → Force ON → Default
+						limit = {
+							NOT = { has_variable = fnr_taliban_enabled }
+							NOT = { has_variable = fnr_taliban_disabled }
+						}
+						every_country = { # Currently DEFAULT → Force OFF
+							set_variable = { name = fnr_taliban_disabled value = yes }
+						}
+					}
+					else_if = { # Currently FORCE OFF → Force ON
+						limit = { has_variable = fnr_taliban_disabled }
+						every_country = { 
+							remove_variable = fnr_taliban_disabled
+							set_variable = { name = fnr_taliban_enabled value = yes }
+						}
+					}
+					else_if = { # Currently FORCE ON → Default
+						limit = { has_variable = fnr_taliban_enabled }
+						every_country = {
+							remove_variable = fnr_taliban_enabled
+						}
+					}
+				}
+			}
+
+		# Rhodesia - Controversial
+			FormableNationReworked_toggle_rhodesia = {
+				scope = country
+				is_shown = { always = yes }
+				is_valid = { always = yes }
+				effect = {
+					if = { # Cycle: Default → Force OFF → Force ON → Default
+						limit = {
+							NOT = { has_variable = fnr_rhodesia_enabled }
+							NOT = { has_variable = fnr_rhodesia_disabled }
+						}
+						every_country = { # Currently DEFAULT → Force OFF
+							set_variable = { name = fnr_rhodesia_disabled value = yes }
+						}
+					}
+					else_if = { # Currently FORCE OFF → Force ON
+						limit = { has_variable = fnr_rhodesia_disabled }
+						every_country = { 
+							remove_variable = fnr_rhodesia_disabled
+							set_variable = { name = fnr_rhodesia_enabled value = yes }
+						}
+					}
+					else_if = { # Currently FORCE ON → Default
+						limit = { has_variable = fnr_rhodesia_enabled }
+						every_country = {
+							remove_variable = fnr_rhodesia_enabled
+						}
+					}
+				}
+			}
+			
+		# German Reich - Controversial
+			FormableNationReworked_toggle_germanreich = {
+				scope = country
+				is_shown = { always = yes }
+				is_valid = { always = yes }
+				effect = {
+					if = { # Cycle: Default → Force OFF → Force ON → Default
+						limit = {
+							NOT = { has_variable = fnr_germanreich_enabled }
+							NOT = { has_variable = fnr_germanreich_disabled }
+						}
+						every_country = { # Currently DEFAULT → Force OFF
+							set_variable = { name = fnr_germanreich_disabled value = yes }
+						}
+					}
+					else_if = { # Currently FORCE OFF → Force ON
+						limit = { has_variable = fnr_germanreich_disabled }
+						every_country = { 
+							remove_variable = fnr_germanreich_disabled
+							set_variable = { name = fnr_germanreich_enabled value = yes }
+						}
+					}
+					else_if = { # Currently FORCE ON → Default
+						limit = { has_variable = fnr_germanreich_enabled }
+						every_country = {
+							remove_variable = fnr_germanreich_enabled
+						}
+					}
+				}
+			}
+
+		# Nazi Germany - Controversial
+			FormableNationReworked_toggle_nazigermany = {
+				scope = country
+				is_shown = { always = yes }
+				is_valid = { always = yes }
+				effect = {
+					if = { # Cycle: Default → Force OFF → Force ON → Default
+						limit = {
+							NOT = { has_variable = fnr_nazigermany_enabled }
+							NOT = { has_variable = fnr_nazigermany_disabled }
+						}
+						every_country = { # Currently DEFAULT → Force OFF
+							set_variable = { name = fnr_nazigermany_disabled value = yes }
+						}
+					}
+					else_if = { # Currently FORCE OFF → Force ON
+						limit = { has_variable = fnr_nazigermany_disabled }
+						every_country = { 
+							remove_variable = fnr_nazigermany_disabled
+							set_variable = { name = fnr_nazigermany_enabled value = yes }
+						}
+					}
+					else_if = { # Currently FORCE ON → Default
+						limit = { has_variable = fnr_nazigermany_enabled }
+						every_country = {
+							remove_variable = fnr_nazigermany_enabled
+						}
+					}
+				}
+			}
+		

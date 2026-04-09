@@ -1,0 +1,6 @@
+﻿l_english:
+
+  # TOOLTIPS FOR FORMABLE NATIONS
+
+    fnr_controversial_tooltip_on: "Click to #R DISABLE#!\n\nThis will disable Controversial Formables such as Nazi Germany, Israel, Palestine, etc"
+    fnr_controversial_tooltip_off: "Click to #G ENABLE#!\n\nThis will enable Controversial Formables such as Nazi Germany, Israel, Palestine, etc"

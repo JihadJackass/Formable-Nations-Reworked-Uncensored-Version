@@ -1,0 +1,83 @@
+﻿# Controversial Formable Coat of Arms
+
+# Donetsk People's Republic
+	DNTPR = {
+		pattern = "pattern_horizontal_split_01.dds"
+		color1 = "red"
+		color2 = "blue"
+		color3 = "black"
+	}
+# Luhansk People's Republic
+	LUHPR = {
+		pattern = "pattern_horizontal_split_01.dds"
+		color1 = "blue_sky"
+		color2 = "blue"
+		color3 = "red"
+	}
+# German Reich
+	GMNRE = {
+		textured_emblem = { texture = "te_german_reich.dds" }
+	}	
+# Greater German Reich
+	GTRGM = {
+		pattern = "pattern_solid.dds"
+		color1 = "red"
+		color2 = "white"
+		color3 = "black"
+		colored_emblem = {
+			texture = "ce_greater_german_reich.dds"
+			color1 = color1
+			color2 = color3
+			color3 = color2
+			#instance = { scale = { 0.55 0.75 } }
+		}
+
+	}
+# Nazi Germany
+	NAZIG = {
+		pattern = "pattern_mena_round_frame_shield.dds"
+		color1 = "red"
+		color2 = "white"
+		color3 = "black"
+		colored_emblem = {
+			texture = "ce_cross_gammate_45.dds"
+			color1 = color3
+			instance = {
+				position = { 0.50 0.45 }
+				scale = { 0.60 0.60 } 
+				#rotation = 45
+			}
+		}
+	}
+# Taliban
+	TLBAN = {
+		pattern = "pattern_solid.dds"
+		color1 = "white"
+		color2 = "black"
+		colored_emblem = {
+			texture = "ce_taliban.dds"
+			color1 = color2
+			color2 = color1
+			color3 = color2
+		}
+	}	
+# Rhodesia
+ 	RHDSA = {
+		pattern = "pattern_tricolor_vertical_01.dds"
+		color1 = "green"
+		color2 = "white"
+		color3 = "green"
+		textured_emblem = {
+			texture = "te_rhodesia.dds"
+			instance = { 
+				position = { 0.50 0.50 } 
+				scale = { 0.95 0.95 }  
+			}
+		}
+	}	
+# Islamic State (ISIS)
+	ISISS = {
+		textured_emblem = {
+			texture = "te_islamic_state.dds"
+		}	
+	}	

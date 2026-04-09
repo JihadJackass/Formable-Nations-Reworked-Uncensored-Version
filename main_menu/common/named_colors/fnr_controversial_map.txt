@@ -1,0 +1,23 @@
+﻿# Controversial FNR colors
+
+	# German Reich
+	map_GMNRE = rgb { 13 13 20 }
+
+	# Greater German Reich
+	map_GTRGM = rgb { 15 8 8 }
+
+	# Islamic State
+	map_ISISS = rgb { 2 2 2 }
+
+	# Luhansk People's Republic
+	map_LUHPR = rgb { 28 2 1 }
+
+	# Nazi Germany
+	map_NAZIG = rgb { 15 4 4 }
+
+	# Rhodesia
+	map_RHDSA = rgb { 32 66 23 }
+
+	# Taliban
+	map_TLBAN = rgb { 193 193 177 }
+

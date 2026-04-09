@@ -1,0 +1,19 @@
+﻿{
+	"name":	"Formable Nations Reworked Uncensored Version",
+	"id":	"formablenations.fnreworkeduncensored",
+	"version":	"1.0.0",
+	"supported_game_version":	"1.0",
+	"short_description":	"Uncensored Version of Formable Nations: Reworked which includes all previously incldued formables in 2.6.2 TOKAY.",
+	"tags":	["Gameplay"],
+ 	"relationships" : [
+ 		{
+ 			"rel_type" : "dependency",
+ 			"id" : "formablenations.fnreworked",
+ 			"display_name" : "Formable Nations Reworked",
+ 			"resource_type" : "mod",
+ 			"version" : "2.6.2 TOKAY"
+  		}
+ 	],
+	"game_custom_data":	{
+}
+}

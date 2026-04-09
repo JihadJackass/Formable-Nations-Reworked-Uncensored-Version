@@ -1,0 +1,58 @@
+﻿l_english:
+
+  ###########################
+  # CONTROVERSIAL FORMABLES #
+  ###########################
+
+    # Luhansk PR
+
+      LUHPR: "Luhansk People's Republic"
+      LUHPR_f: "Luhansk People's Republic"
+      LUHPR_ADJ: "Luhansk"
+      LUHPR_f_desc: "The Luhansk People's Republic (LPR) is a breakaway state in eastern Ukraine, located in the Donbas region, that was proclaimed in 2014 and effectively annexed by Russia in 2022. It is a disputed territory, with nearly all UN member states considering it a part of Ukraine. The LPR was formed by Russian-backed separatists following the Euromaidan revolution and is heavily supported by Russia, but it has received limited international recognition"
+
+    # German Reich
+
+      GMNRE: "German Reich"
+      GMNRE_f: "German Reich"
+      GMNRE_ADJ: "German"
+      GMNRE_f_desc: "The German Reich was the official name for the German nation-state from 1871 to 1945, encompassing three distinct political systems: the German Empire (1871-1918), the Weimar Republic (1919-1933), and Nazi Germany (1933-1945). The term 'German Reich' is most frequently associated with the Third Reich, or Nazi Germany, which was a totalitarian dictatorship under Adolf Hitler and the Nazi Party"
+
+    # Greater German Reich
+
+      GTRGM: "Greater German Reich"
+      GTRGM_f: "Greater German Reich"
+      GTRGM_ADJ: "German"
+      GTRGM_f_desc: "The Greater German Reich was the official name for Nazi Germany from 1938 onwards, styled as the Greater Germanic Reich of the German Nation. This totalitarian state, led by Adolf Hitler, sought to expand its territorial control across Europe, annexing territories like Austria and the Sudetenland. The state's ideology was built on Nazi principles of racial superiority, aiming to establish dominance in Eastern Europe."
+
+    # Nazi Germany
+
+      NAZIG: "Nazi Germany"
+      NAZIG_f: "Nazi Germany"
+      NAZIG_ADJ: "German"
+      NAZIG_f_desc: "Nazi Germany was the German state from 1933 to 1945, ruled by Adolf Hitler and the Nazi Party, transforming it into a totalitarian dictatorship. It is also known as the Third Reich, a term that implied succession from the Holy Roman Empire and German Empire. Key features included extreme nationalism, virulent antisemitism, expansionist foreign policy, and the persecution of Jews and other minority groups, which ultimately led to World War II"
+
+    # Islamic State (ISIS)
+
+      ISISS: "Islamic State"
+      ISISS_f: "Islamic State"
+      ISISS_ADJ: "ISIS"
+      ISISS_f_desc: "ISIS or ISIL, is a radical Sunni Muslim militant and terrorist organization that unilaterally declared itself a worldwide caliphate (an Islamic state) in June 2014. This self-proclaimed state, which is not recognized by any other nation or the international community, aimed to establish a transnational, totalitarian Islamic state governed by its extreme interpretation of Sharia law."
+
+    # Taliban
+
+      TLBAN: "Taliban"
+      TLBAN_f: "Taliban"
+      TLBAN_ADJ: "Taliban"
+      TLBAN_f_desc: "Under the Taliban, Afghanistan is a theocratic de facto state known as the Islamic Emirate of Afghanistan. The regime is characterized by a strict, hardline interpretation and enforcement of Sharia law, severe human rights violations (particularly against women and girls), and a lack of international recognition."
+
+    # Rhodesia
+
+      RHDSA: "Rhodesia"
+      RHDSA_f: "Rhodesia"
+      RHDSA_ADJ: "Rhodesian"
+      RHDSA_f_desc: "Rhodesia was an unrecognised country in Southern Africa from 1965 to 1979, which was the de facto successor to the British colony of Southern Rhodesia. It was characterized by a white-minority government that issued a unilateral declaration of independence (UDI) and faced internal conflict, and the territory eventually became modern-day Zimbabwe."
+
+
+   
+ 
