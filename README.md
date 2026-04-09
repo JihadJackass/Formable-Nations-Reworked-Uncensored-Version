@@ -1,5 +1,7 @@
 # Formable Nations Reworked EUV - Uncensored Version
 
+# NOT FUNCTIONAL YET, I'M IN PAIN AND CANNOT COMPLETE THIS AT THE MOMENT.
+
 This version contains controversial formables that were included in 2.6.2 since release, and were requested by Paradox to be removed with the threat of removal of FNR as a whole from Steam Workshop. I do not support censorship, nor do I support Nazi Ideology - This is corporate overreach in my opinion. 
 
 I personally use Formable Nations Reworked EUV, so this mod is mostly for me and my friends.
